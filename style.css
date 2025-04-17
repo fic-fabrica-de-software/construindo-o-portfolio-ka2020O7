@@ -1,5 +1,6 @@
 body{
     background-color: rgb(56, 56, 56);
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -29,18 +30,22 @@ main {
     justify-content: center;
     align-items: center;
     min-height: 600px;
+    flex-direction: column;
 }
 
 #imagem {
     max-width: 100%;
     height: auto;
     border-radius: 100px;
+    height: 200px;
 }
 
-#botao_central{
-    color: aqua;
-    padding: 10px 20px;
-    background-color: rgb(40, 40, 40);
-    border: 1px solid aqua;
-    border-radius: 5px;
+.botao_imagem{
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+#flex{
+    display: flex;
 }
