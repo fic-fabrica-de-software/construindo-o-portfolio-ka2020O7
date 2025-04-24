@@ -4,11 +4,18 @@ body{
 }
 
 
-header {
+#header_index {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+#header_sobremim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .botao{
     color: rgb(255, 255, 255);
@@ -52,4 +59,12 @@ main {
 
 .botao_imagem2{
 width: 100px 
+};
+
+.alinhar{
+    text-align: center;
+}
+
+.header2{
+    text-align: center;
 };
